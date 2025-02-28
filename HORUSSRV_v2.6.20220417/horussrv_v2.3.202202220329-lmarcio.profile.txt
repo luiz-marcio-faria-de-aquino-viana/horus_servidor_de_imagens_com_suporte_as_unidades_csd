@@ -1,0 +1,1030 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00    10415     0.00     0.00  strNCmpCaseUtil(char*, char*, int, int)
+  0.00      0.00     0.00      246     0.00     0.00  CCfgConfigTag::debugEntry(int, char const*, char const*, config_tag_struct*)
+  0.00      0.00     0.00      240     0.00     0.00  strNCpyUtil(char*, char*, int)
+  0.00      0.00     0.00      230     0.00     0.00  warnMsg(int, char const*, char const*, char const*)
+  0.00      0.00     0.00      199     0.00     0.00  strNCpyCaseUtil(char*, char*, int, int)
+  0.00      0.00     0.00      199     0.00     0.00  strSetEmptyUtil(char*)
+  0.00      0.00     0.00      199     0.00     0.00  CCfgConfigTag::addNewConfigTag(int, int, char*)
+  0.00      0.00     0.00       92     0.00     0.00  memSetNullUtil(unsigned char*, int)
+  0.00      0.00     0.00       83     0.00     0.00  strRemoveEolUtil(char*, int)
+  0.00      0.00     0.00       70     0.00     0.00  CCfgConfigTag::setConfigTagValue(char*, char*)
+  0.00      0.00     0.00       65     0.00     0.00  CCfgConfigTag::findConfigTagByName(char*)
+  0.00      0.00     0.00       40     0.00     0.00  CCmdListener::resetConnection(connection_struct*)
+  0.00      0.00     0.00       25     0.00     0.00  CCfgConfig::getRemoteUnitAtPtr(int)
+  0.00      0.00     0.00       25     0.00     0.00  CCfgRemoteUnit::getEnabled()
+  0.00      0.00     0.00       19     0.00     0.00  strNCmpUtil(char*, char*, int)
+  0.00      0.00     0.00       18     0.00     0.00  strNCatUtil(char*, char*, int)
+  0.00      0.00     0.00       10     0.00     0.00  errMsgIfNull(char const*, char const*, char const*, void*)
+  0.00      0.00     0.00       10     0.00     0.00  CAppMain::getConfigPtr()
+  0.00      0.00     0.00        9     0.00     0.00  openFileUtil(_IO_FILE**, char const*, char const*, long)
+  0.00      0.00     0.00        8     0.00     0.00  CCfgContext::getDataDir()
+  0.00      0.00     0.00        8     0.00     0.00  CCfgRemoteUnit::getOid()
+  0.00      0.00     0.00        6     0.00     0.00  allocDataArray(int, int)
+  0.00      0.00     0.00        6     0.00     0.00  CCfgHostServer::getInPort()
+  0.00      0.00     0.00        5     0.00     0.00  showMessage(char const*, long)
+  0.00      0.00     0.00        5     0.00     0.00  CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int)
+  0.00      0.00     0.00        5     0.00     0.00  CCmdListener::sendDataMessageToINET(sockaddr_in*, long, unsigned char*, int)
+  0.00      0.00     0.00        5     0.00     0.00  CCmdListener::isRunning()
+  0.00      0.00     0.00        5     0.00     0.00  CCfgRemoteUnit::loadConfig(int, CCfgConfigTag*)
+  0.00      0.00     0.00        4     0.00     0.00  CCfgConfig::getRemoteUnitPtr(int)
+  0.00      0.00     0.00        4     0.00     0.00  CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int)
+  0.00      0.00     0.00        4     0.00     0.00  CCmdListener::sendStringMessageToRemoteUnit(long, char*)
+  0.00      0.00     0.00        4     0.00     0.00  CCfgRemoteUnit::getInPort()
+  0.00      0.00     0.00        4     0.00     0.00  CCfgRemoteUnit::getIpAddr()
+  0.00      0.00     0.00        3     0.00     0.00  CCfgConfig::getHostServerPtr()
+  0.00      0.00     0.00        3     0.00     0.00  CCmdTest::waitMessage(int)
+  0.00      0.00     0.00        2     0.00     0.00  memNCpyUtil(unsigned char*, unsigned char*, int)
+  0.00      0.00     0.00        2     0.00     0.00  freeDataArray(void*)
+  0.00      0.00     0.00        2     0.00     0.00  CCfgConfig::getListenerPtr()
+  0.00      0.00     0.00        2     0.00     0.00  CCfgListener::getInPort()
+  0.00      0.00     0.00        2     0.00     0.00  CCfgListener::getIpAddr()
+  0.00      0.00     0.00        2     0.00     0.00  CCmdListener::setRunning(int)
+  0.00      0.00     0.00        2     0.00     0.00  CCmdListener::stop()
+  0.00      0.00     0.00        2     0.00     0.00  CCmdListener::getInPort()
+  0.00      0.00     0.00        2     0.00     0.00  CSequence::debug(int, char const*, char const*)
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_gAppMain
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_gCmdListener
+  0.00      0.00     0.00        1     0.00     0.00  showParams(cmdline_struct*)
+  0.00      0.00     0.00        1     0.00     0.00  parserParams(int, char**, cmdline_struct*)
+  0.00      0.00     0.00        1     0.00     0.00  getLocalTimeStr(char*)
+  0.00      0.00     0.00        1     0.00     0.00  showHeaderMessage()
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::loadConfig(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::getCurrNumRemoteUnits()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::init(int)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::debug(int, char const*, char const*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::terminate()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::CCfgConfig(int)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfig::~CCfgConfig()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgContext::initDefaults()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgContext::resetDataLocation(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgContext::CCfgContext()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgContext::~CCfgContext()
+  0.00      0.00     0.00        1     0.00     0.00  CTableSpace::debug(int, char const*, char const*)
+  0.00      0.00     0.00        1     0.00     0.00  CTableSpace::loadFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CTableSpace::saveFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CTableSpace::CTableSpace(int)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::getOutPort()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::loadConfig(CCfgConfigTag*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::initDefaults()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::init()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::terminate()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::CCfgListener()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgListener::~CCfgListener()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdDispatch::serverTerminate(CCfgRemoteUnit*)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdDispatch::doActionTS1MkDir(CCfgRemoteUnit*, long, long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdDispatch::doActionTS1Upload(CCfgRemoteUnit*, long, long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdDispatch::doActionTS1DownloadAndProcess(CCfgRemoteUnit*, long, long, long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdDispatch::CCmdDispatch(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::setOutPort(long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::remoteExec2()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::resetAllConnections()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::getAvailableConnection()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::sendDataMessageToListener(unsigned char*, int)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::sendStringMessageToListener(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::start()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::setInPort(long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::setIpAddr(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdListener::CCmdListener()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfigTag::buildConfigTags()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfigTag::loadConfigTagsValue(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfigTag::init(int, char*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfigTag::terminate()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfigTag::CCfgConfigTag()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgConfigTag::~CCfgConfigTag()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::loadConfig(CCfgConfigTag*)
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::initDefaults()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::init()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::getName()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::terminate()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::CCfgHostServer()
+  0.00      0.00     0.00        1     0.00     0.00  CCfgHostServer::~CCfgHostServer()
+  0.00      0.00     0.00        1     0.00     0.00  CTableMetadata::loadFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CTableMetadata::saveFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CTableMetadata::CTableMetadata(int)
+  0.00      0.00     0.00        1     0.00     0.00  CUsers::debug(int, char const*, char const*)
+  0.00      0.00     0.00        1     0.00     0.00  CUsers::loadFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CUsers::saveFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CUsers::CUsers(int)
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::initConfig(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::getContextPtr()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::initSequences(int)
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::initTablespace(int)
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::terminateUsers()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::terminateConfig()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::initTableMetadata()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::terminateSequences()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::terminateTablespace()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::terminateTableMetadata()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::init(int, char*)
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::initUsers(int)
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::terminate()
+  0.00      0.00     0.00        1     0.00     0.00  CAppMain::CAppMain()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::testUpload(CCfgRemoteUnit*, long, long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::remoteBenchmark2()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::testDownloadAndProcess(CCfgRemoteUnit*, long, long, long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::testTerminateRemoteUnit(CCfgRemoteUnit*)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::testMkDir(CCfgRemoteUnit*, long, long)
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::CCmdTest()
+  0.00      0.00     0.00        1     0.00     0.00  CCmdTest::~CCmdTest()
+  0.00      0.00     0.00        1     0.00     0.00  CSequence::loadFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CSequence::saveFile(char*)
+  0.00      0.00     0.00        1     0.00     0.00  CSequence::CSequence(int)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2016 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00    4710/10415       CCfgConfigTag::findConfigTagByName(char*) [25]
+                0.00    0.00    5705/10415       CCfgConfigTag::setConfigTagValue(char*, char*) [24]
+[15]     0.0    0.00    0.00   10415         strNCmpCaseUtil(char*, char*, int, int) [15]
+-----------------------------------------------
+                0.00    0.00      47/246         CCfgConfigTag::setConfigTagValue(char*, char*) [24]
+                0.00    0.00     199/246         CCfgConfigTag::addNewConfigTag(int, int, char*) [21]
+[16]     0.0    0.00    0.00     246         CCfgConfigTag::debugEntry(int, char const*, char const*, config_tag_struct*) [16]
+-----------------------------------------------
+                0.00    0.00       1/240         CCfgContext::CCfgContext() [76]
+                0.00    0.00       1/240         CCfgContext::resetDataLocation(char*) [75]
+                0.00    0.00       1/240         CCfgListener::initDefaults() [84]
+                0.00    0.00       1/240         CCfgConfig::loadConfig(char*) [67]
+                0.00    0.00       1/240         CAppMain::initSequences(int) [126]
+                0.00    0.00       1/240         CAppMain::initUsers(int) [135]
+                0.00    0.00       1/240         CAppMain::initTablespace(int) [127]
+                0.00    0.00       1/240         CAppMain::initTableMetadata() [130]
+                0.00    0.00       1/240         CAppMain::terminateSequences() [131]
+                0.00    0.00       1/240         CAppMain::terminateUsers() [128]
+                0.00    0.00       1/240         CAppMain::terminateTablespace() [132]
+                0.00    0.00       1/240         CAppMain::terminateTableMetadata() [133]
+                0.00    0.00       1/240         CCmdDispatch::CCmdDispatch(char*) [93]
+                0.00    0.00       1/240         CCmdListener::setIpAddr(char*) [102]
+                0.00    0.00       1/240         cmd_listener_run(void*) [185]
+                0.00    0.00       1/240         parserParams(int, char**, cmdline_struct*) [62]
+                0.00    0.00       3/240         CCfgHostServer::initDefaults() [111]
+                0.00    0.00       3/240         CCfgHostServer::loadConfig(CCfgConfigTag*) [110]
+                0.00    0.00      11/240         CCfgContext::initDefaults() [74]
+                0.00    0.00      20/240         CCfgRemoteUnit::loadConfig(int, CCfgConfigTag*) [42]
+                0.00    0.00      47/240         CCfgConfigTag::setConfigTagValue(char*, char*) [24]
+                0.00    0.00     140/240         CCfgConfigTag::loadConfigTagsValue(char*) [105]
+[17]     0.0    0.00    0.00     240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       1/230         CCfgContext::CCfgContext() [76]
+                0.00    0.00       1/230         CCfgContext::resetDataLocation(char*) [75]
+                0.00    0.00       1/230         CCmdDispatch::CCmdDispatch(char*) [93]
+                0.00    0.00       1/230         cmd_listener_run(void*) [185]
+                0.00    0.00       2/230         CTableSpace::saveFile(char*) [80]
+                0.00    0.00       2/230         CAppMain::initConfig(char*) [124]
+                0.00    0.00       2/230         CCmdTest::testMkDir(CCfgRemoteUnit*, long, long) [142]
+                0.00    0.00       2/230         CCmdTest::testUpload(CCfgRemoteUnit*, long, long) [138]
+                0.00    0.00       2/230         CCmdTest::testDownloadAndProcess(CCfgRemoteUnit*, long, long, long) [140]
+                0.00    0.00       2/230         CCmdTest::testTerminateRemoteUnit(CCfgRemoteUnit*) [141]
+                0.00    0.00       3/230         CCmdTest::waitMessage(int) [49]
+                0.00    0.00       4/230         CAppMain::initUsers(int) [135]
+                0.00    0.00       4/230         CAppMain::initTableMetadata() [130]
+                0.00    0.00       4/230         CAppMain::terminateSequences() [131]
+                0.00    0.00       4/230         CAppMain::terminateUsers() [128]
+                0.00    0.00       4/230         CAppMain::terminateTablespace() [132]
+                0.00    0.00       4/230         CAppMain::terminateTableMetadata() [133]
+                0.00    0.00       5/230         CUsers::saveFile(char*) [122]
+                0.00    0.00       5/230         CAppMain::initTablespace(int) [127]
+                0.00    0.00       5/230         CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int) [39]
+                0.00    0.00       6/230         CTableMetadata::saveFile(char*) [118]
+                0.00    0.00       7/230         CAppMain::initSequences(int) [126]
+                0.00    0.00       9/230         CCfgContext::initDefaults() [74]
+                0.00    0.00      10/230         CSequence::saveFile(char*) [146]
+                0.00    0.00     140/230         CCfgConfigTag::loadConfigTagsValue(char*) [105]
+[18]     0.0    0.00    0.00     230         warnMsg(int, char const*, char const*, char const*) [18]
+-----------------------------------------------
+                0.00    0.00     199/199         CCfgConfigTag::addNewConfigTag(int, int, char*) [21]
+[19]     0.0    0.00    0.00     199         strNCpyCaseUtil(char*, char*, int, int) [19]
+-----------------------------------------------
+                0.00    0.00     199/199         CCfgConfigTag::addNewConfigTag(int, int, char*) [21]
+[20]     0.0    0.00    0.00     199         strSetEmptyUtil(char*) [20]
+-----------------------------------------------
+                0.00    0.00     199/199         CCfgConfigTag::buildConfigTags() [104]
+[21]     0.0    0.00    0.00     199         CCfgConfigTag::addNewConfigTag(int, int, char*) [21]
+                0.00    0.00     199/199         strNCpyCaseUtil(char*, char*, int, int) [19]
+                0.00    0.00     199/199         strSetEmptyUtil(char*) [20]
+                0.00    0.00     199/246         CCfgConfigTag::debugEntry(int, char const*, char const*, config_tag_struct*) [16]
+-----------------------------------------------
+                0.00    0.00       3/92          cmd_listener_run(void*) [185]
+                0.00    0.00       9/92          CCmdTest::waitMessage(int) [49]
+                0.00    0.00      80/92          CCmdListener::resetConnection(connection_struct*) [26]
+[22]     0.0    0.00    0.00      92         memSetNullUtil(unsigned char*, int) [22]
+-----------------------------------------------
+                0.00    0.00      83/83          CCfgConfigTag::loadConfigTagsValue(char*) [105]
+[23]     0.0    0.00    0.00      83         strRemoveEolUtil(char*, int) [23]
+-----------------------------------------------
+                0.00    0.00      70/70          CCfgConfigTag::loadConfigTagsValue(char*) [105]
+[24]     0.0    0.00    0.00      70         CCfgConfigTag::setConfigTagValue(char*, char*) [24]
+                0.00    0.00    5705/10415       strNCmpCaseUtil(char*, char*, int, int) [15]
+                0.00    0.00      47/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00      47/246         CCfgConfigTag::debugEntry(int, char const*, char const*, config_tag_struct*) [16]
+-----------------------------------------------
+                0.00    0.00       1/65          CCfgConfig::loadConfig(char*) [67]
+                0.00    0.00       3/65          CCfgListener::loadConfig(CCfgConfigTag*) [83]
+                0.00    0.00       6/65          CCfgHostServer::loadConfig(CCfgConfigTag*) [110]
+                0.00    0.00      55/65          CCfgRemoteUnit::loadConfig(int, CCfgConfigTag*) [42]
+[25]     0.0    0.00    0.00      65         CCfgConfigTag::findConfigTagByName(char*) [25]
+                0.00    0.00    4710/10415       strNCmpCaseUtil(char*, char*, int, int) [15]
+-----------------------------------------------
+                0.00    0.00      40/40          CCmdListener::resetAllConnections() [96]
+[26]     0.0    0.00    0.00      40         CCmdListener::resetConnection(connection_struct*) [26]
+                0.00    0.00      80/92          memSetNullUtil(unsigned char*, int) [22]
+-----------------------------------------------
+                0.00    0.00      25/25          CCmdTest::remoteBenchmark2() [139]
+[27]     0.0    0.00    0.00      25         CCfgConfig::getRemoteUnitAtPtr(int) [27]
+-----------------------------------------------
+                0.00    0.00      25/25          CCmdTest::remoteBenchmark2() [139]
+[28]     0.0    0.00    0.00      25         CCfgRemoteUnit::getEnabled() [28]
+-----------------------------------------------
+                0.00    0.00       1/19          cmd_listener_run(void*) [185]
+                0.00    0.00      18/19          parserParams(int, char**, cmdline_struct*) [62]
+[29]     0.0    0.00    0.00      19         strNCmpUtil(char*, char*, int) [29]
+-----------------------------------------------
+                0.00    0.00       1/18          CAppMain::initSequences(int) [126]
+                0.00    0.00       1/18          CAppMain::initUsers(int) [135]
+                0.00    0.00       1/18          CAppMain::initTablespace(int) [127]
+                0.00    0.00       1/18          CAppMain::initTableMetadata() [130]
+                0.00    0.00       1/18          CAppMain::terminateSequences() [131]
+                0.00    0.00       1/18          CAppMain::terminateUsers() [128]
+                0.00    0.00       1/18          CAppMain::terminateTablespace() [132]
+                0.00    0.00       1/18          CAppMain::terminateTableMetadata() [133]
+                0.00    0.00       3/18          CCfgContext::resetDataLocation(char*) [75]
+                0.00    0.00       7/18          CCfgContext::initDefaults() [74]
+[30]     0.0    0.00    0.00      18         strNCatUtil(char*, char*, int) [30]
+-----------------------------------------------
+                0.00    0.00       1/10          CAppMain::initSequences(int) [126]
+                0.00    0.00       1/10          CAppMain::initUsers(int) [135]
+                0.00    0.00       1/10          CAppMain::initTablespace(int) [127]
+                0.00    0.00       1/10          CAppMain::initTableMetadata() [130]
+                0.00    0.00       6/10          allocDataArray(int, int) [36]
+[31]     0.0    0.00    0.00      10         errMsgIfNull(char const*, char const*, char const*, void*) [31]
+-----------------------------------------------
+                0.00    0.00       1/10          CCmdTest::remoteBenchmark2() [139]
+                0.00    0.00       1/10          CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+                0.00    0.00       1/10          cmd_listener_run(void*) [185]
+                0.00    0.00       3/10          CCmdTest::waitMessage(int) [49]
+                0.00    0.00       4/10          CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+[32]     0.0    0.00    0.00      10         CAppMain::getConfigPtr() [32]
+-----------------------------------------------
+                0.00    0.00       1/9           CCfgConfigTag::loadConfigTagsValue(char*) [105]
+                0.00    0.00       1/9           CSequence::saveFile(char*) [146]
+                0.00    0.00       1/9           CSequence::loadFile(char*) [145]
+                0.00    0.00       1/9           CUsers::saveFile(char*) [122]
+                0.00    0.00       1/9           CUsers::loadFile(char*) [121]
+                0.00    0.00       1/9           CTableSpace::saveFile(char*) [80]
+                0.00    0.00       1/9           CTableSpace::loadFile(char*) [79]
+                0.00    0.00       1/9           CTableMetadata::saveFile(char*) [118]
+                0.00    0.00       1/9           CTableMetadata::loadFile(char*) [117]
+[33]     0.0    0.00    0.00       9         openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/8           CAppMain::initSequences(int) [126]
+                0.00    0.00       1/8           CAppMain::initUsers(int) [135]
+                0.00    0.00       1/8           CAppMain::initTablespace(int) [127]
+                0.00    0.00       1/8           CAppMain::initTableMetadata() [130]
+                0.00    0.00       1/8           CAppMain::terminateSequences() [131]
+                0.00    0.00       1/8           CAppMain::terminateUsers() [128]
+                0.00    0.00       1/8           CAppMain::terminateTablespace() [132]
+                0.00    0.00       1/8           CAppMain::terminateTableMetadata() [133]
+[34]     0.0    0.00    0.00       8         CCfgContext::getDataDir() [34]
+-----------------------------------------------
+                0.00    0.00       1/8           CCmdDispatch::serverTerminate(CCfgRemoteUnit*) [89]
+                0.00    0.00       1/8           CCmdDispatch::doActionTS1MkDir(CCfgRemoteUnit*, long, long) [90]
+                0.00    0.00       1/8           CCmdDispatch::doActionTS1Upload(CCfgRemoteUnit*, long, long) [91]
+                0.00    0.00       1/8           CCmdDispatch::doActionTS1DownloadAndProcess(CCfgRemoteUnit*, long, long, long) [92]
+                0.00    0.00       4/8           CCfgConfig::getRemoteUnitPtr(int) [43]
+[35]     0.0    0.00    0.00       8         CCfgRemoteUnit::getOid() [35]
+-----------------------------------------------
+                0.00    0.00       1/6           CCfgConfigTag::init(int, char*) [106]
+                0.00    0.00       1/6           CCfgConfig::init(int) [69]
+                0.00    0.00       1/6           CSequence::CSequence(int) [147]
+                0.00    0.00       1/6           CUsers::CUsers(int) [123]
+                0.00    0.00       1/6           CTableSpace::CTableSpace(int) [81]
+                0.00    0.00       1/6           CTableMetadata::CTableMetadata(int) [119]
+[36]     0.0    0.00    0.00       6         allocDataArray(int, int) [36]
+                0.00    0.00       6/10          errMsgIfNull(char const*, char const*, char const*, void*) [31]
+-----------------------------------------------
+                0.00    0.00       6/6           CCmdTest::waitMessage(int) [49]
+[37]     0.0    0.00    0.00       6         CCfgHostServer::getInPort() [37]
+-----------------------------------------------
+                0.00    0.00       1/5           main [13]
+                0.00    0.00       4/5           CCmdTest::remoteBenchmark2() [139]
+[38]     0.0    0.00    0.00       5         showMessage(char const*, long) [38]
+-----------------------------------------------
+                0.00    0.00       1/5           CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+                0.00    0.00       4/5           CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+[39]     0.0    0.00    0.00       5         CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int) [39]
+                0.00    0.00       5/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       5/5           CCmdListener::sendDataMessageToINET(sockaddr_in*, long, unsigned char*, int) [40]
+-----------------------------------------------
+                0.00    0.00       5/5           CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int) [39]
+[40]     0.0    0.00    0.00       5         CCmdListener::sendDataMessageToINET(sockaddr_in*, long, unsigned char*, int) [40]
+-----------------------------------------------
+                0.00    0.00       1/5           main [13]
+                0.00    0.00       2/5           CCmdListener::stop() [56]
+                0.00    0.00       2/5           cmd_listener_run(void*) [185]
+[41]     0.0    0.00    0.00       5         CCmdListener::isRunning() [41]
+-----------------------------------------------
+                0.00    0.00       5/5           CCfgConfig::loadConfig(char*) [67]
+[42]     0.0    0.00    0.00       5         CCfgRemoteUnit::loadConfig(int, CCfgConfigTag*) [42]
+                0.00    0.00      55/65          CCfgConfigTag::findConfigTagByName(char*) [25]
+                0.00    0.00      20/240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       4/4           CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+[43]     0.0    0.00    0.00       4         CCfgConfig::getRemoteUnitPtr(int) [43]
+                0.00    0.00       4/8           CCfgRemoteUnit::getOid() [35]
+-----------------------------------------------
+                0.00    0.00       4/4           CCmdListener::sendStringMessageToRemoteUnit(long, char*) [45]
+[44]     0.0    0.00    0.00       4         CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+                0.00    0.00       4/10          CAppMain::getConfigPtr() [32]
+                0.00    0.00       4/4           CCfgConfig::getRemoteUnitPtr(int) [43]
+                0.00    0.00       4/4           CCfgRemoteUnit::getInPort() [46]
+                0.00    0.00       4/4           CCfgRemoteUnit::getIpAddr() [47]
+                0.00    0.00       4/5           CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int) [39]
+-----------------------------------------------
+                0.00    0.00       1/4           CCmdDispatch::serverTerminate(CCfgRemoteUnit*) [89]
+                0.00    0.00       1/4           CCmdDispatch::doActionTS1MkDir(CCfgRemoteUnit*, long, long) [90]
+                0.00    0.00       1/4           CCmdDispatch::doActionTS1Upload(CCfgRemoteUnit*, long, long) [91]
+                0.00    0.00       1/4           CCmdDispatch::doActionTS1DownloadAndProcess(CCfgRemoteUnit*, long, long, long) [92]
+[45]     0.0    0.00    0.00       4         CCmdListener::sendStringMessageToRemoteUnit(long, char*) [45]
+                0.00    0.00       4/4           CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+-----------------------------------------------
+                0.00    0.00       4/4           CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+[46]     0.0    0.00    0.00       4         CCfgRemoteUnit::getInPort() [46]
+-----------------------------------------------
+                0.00    0.00       4/4           CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [44]
+[47]     0.0    0.00    0.00       4         CCfgRemoteUnit::getIpAddr() [47]
+-----------------------------------------------
+                0.00    0.00       3/3           CCmdTest::waitMessage(int) [49]
+[48]     0.0    0.00    0.00       3         CCfgConfig::getHostServerPtr() [48]
+-----------------------------------------------
+                0.00    0.00       3/3           CCmdTest::remoteBenchmark2() [139]
+[49]     0.0    0.00    0.00       3         CCmdTest::waitMessage(int) [49]
+                0.00    0.00       9/92          memSetNullUtil(unsigned char*, int) [22]
+                0.00    0.00       6/6           CCfgHostServer::getInPort() [37]
+                0.00    0.00       3/10          CAppMain::getConfigPtr() [32]
+                0.00    0.00       3/3           CCfgConfig::getHostServerPtr() [48]
+                0.00    0.00       3/230         warnMsg(int, char const*, char const*, char const*) [18]
+-----------------------------------------------
+                0.00    0.00       2/2           cmd_listener_run(void*) [185]
+[50]     0.0    0.00    0.00       2         memNCpyUtil(unsigned char*, unsigned char*, int) [50]
+-----------------------------------------------
+                0.00    0.00       1/2           CCfgConfigTag::terminate() [107]
+                0.00    0.00       1/2           CCfgConfig::terminate() [71]
+[51]     0.0    0.00    0.00       2         freeDataArray(void*) [51]
+-----------------------------------------------
+                0.00    0.00       1/2           CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+                0.00    0.00       1/2           cmd_listener_run(void*) [185]
+[52]     0.0    0.00    0.00       2         CCfgConfig::getListenerPtr() [52]
+-----------------------------------------------
+                0.00    0.00       1/2           CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+                0.00    0.00       1/2           cmd_listener_run(void*) [185]
+[53]     0.0    0.00    0.00       2         CCfgListener::getInPort() [53]
+-----------------------------------------------
+                0.00    0.00       1/2           CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+                0.00    0.00       1/2           cmd_listener_run(void*) [185]
+[54]     0.0    0.00    0.00       2         CCfgListener::getIpAddr() [54]
+-----------------------------------------------
+                0.00    0.00       2/2           cmd_listener_run(void*) [185]
+[55]     0.0    0.00    0.00       2         CCmdListener::setRunning(int) [55]
+-----------------------------------------------
+                0.00    0.00       1/2           CCmdListener::~CCmdListener() [281]
+                0.00    0.00       1/2           main [13]
+[56]     0.0    0.00    0.00       2         CCmdListener::stop() [56]
+                0.00    0.00       2/5           CCmdListener::isRunning() [41]
+                0.00    0.00       1/1           CCmdListener::sendStringMessageToListener(char*) [99]
+-----------------------------------------------
+                0.00    0.00       2/2           cmd_listener_run(void*) [185]
+[57]     0.0    0.00    0.00       2         CCmdListener::getInPort() [57]
+-----------------------------------------------
+                0.00    0.00       2/2           CAppMain::initSequences(int) [126]
+[58]     0.0    0.00    0.00       2         CSequence::debug(int, char const*, char const*) [58]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [429]
+[59]     0.0    0.00    0.00       1         _GLOBAL__sub_I_gAppMain [59]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [65]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [429]
+[60]     0.0    0.00    0.00       1         _GLOBAL__sub_I_gCmdListener [60]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [66]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[61]     0.0    0.00    0.00       1         showParams(cmdline_struct*) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[62]     0.0    0.00    0.00       1         parserParams(int, char**, cmdline_struct*) [62]
+                0.00    0.00      18/19          strNCmpUtil(char*, char*, int) [29]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgContext::initDefaults() [74]
+[63]     0.0    0.00    0.00       1         getLocalTimeStr(char*) [63]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[64]     0.0    0.00    0.00       1         showHeaderMessage() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_gAppMain [59]
+[65]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [65]
+                0.00    0.00       1/1           CAppMain::CAppMain() [137]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_gCmdListener [60]
+[66]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [66]
+                0.00    0.00       1/1           CCmdListener::CCmdListener() [103]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initConfig(char*) [124]
+[67]     0.0    0.00    0.00       1         CCfgConfig::loadConfig(char*) [67]
+                0.00    0.00       5/5           CCfgRemoteUnit::loadConfig(int, CCfgConfigTag*) [42]
+                0.00    0.00       1/1           CAppMain::getContextPtr() [125]
+                0.00    0.00       1/1           CCfgConfigTag::loadConfigTagsValue(char*) [105]
+                0.00    0.00       1/65          CCfgConfigTag::findConfigTagByName(char*) [25]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/1           CCfgHostServer::loadConfig(CCfgConfigTag*) [110]
+                0.00    0.00       1/1           CCfgHostServer::getName() [113]
+                0.00    0.00       1/1           CCfgContext::resetDataLocation(char*) [75]
+                0.00    0.00       1/1           CCfgListener::loadConfig(CCfgConfigTag*) [83]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::remoteBenchmark2() [139]
+[68]     0.0    0.00    0.00       1         CCfgConfig::getCurrNumRemoteUnits() [68]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::CCfgConfig(int) [72]
+[69]     0.0    0.00    0.00       1         CCfgConfig::init(int) [69]
+                0.00    0.00       1/6           allocDataArray(int, int) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initConfig(char*) [124]
+[70]     0.0    0.00    0.00       1         CCfgConfig::debug(int, char const*, char const*) [70]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::~CCfgConfig() [73]
+[71]     0.0    0.00    0.00       1         CCfgConfig::terminate() [71]
+                0.00    0.00       1/2           freeDataArray(void*) [51]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initConfig(char*) [124]
+[72]     0.0    0.00    0.00       1         CCfgConfig::CCfgConfig(int) [72]
+                0.00    0.00       1/1           CCfgConfigTag::CCfgConfigTag() [108]
+                0.00    0.00       1/1           CCfgHostServer::CCfgHostServer() [115]
+                0.00    0.00       1/1           CCfgListener::CCfgListener() [87]
+                0.00    0.00       1/1           CCfgConfig::init(int) [69]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminateConfig() [129]
+[73]     0.0    0.00    0.00       1         CCfgConfig::~CCfgConfig() [73]
+                0.00    0.00       1/1           CCfgConfig::terminate() [71]
+                0.00    0.00       1/1           CCfgListener::~CCfgListener() [88]
+                0.00    0.00       1/1           CCfgHostServer::~CCfgHostServer() [116]
+                0.00    0.00       1/1           CCfgConfigTag::~CCfgConfigTag() [109]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgContext::CCfgContext() [76]
+[74]     0.0    0.00    0.00       1         CCfgContext::initDefaults() [74]
+                0.00    0.00      11/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       9/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       7/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           getLocalTimeStr(char*) [63]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+[75]     0.0    0.00    0.00       1         CCfgContext::resetDataLocation(char*) [75]
+                0.00    0.00       3/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/230         warnMsg(int, char const*, char const*, char const*) [18]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initConfig(char*) [124]
+[76]     0.0    0.00    0.00       1         CCfgContext::CCfgContext() [76]
+                0.00    0.00       1/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/1           CCfgContext::initDefaults() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminateConfig() [129]
+[77]     0.0    0.00    0.00       1         CCfgContext::~CCfgContext() [77]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initTablespace(int) [127]
+[78]     0.0    0.00    0.00       1         CTableSpace::debug(int, char const*, char const*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initTablespace(int) [127]
+[79]     0.0    0.00    0.00       1         CTableSpace::loadFile(char*) [79]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminateTablespace() [132]
+[80]     0.0    0.00    0.00       1         CTableSpace::saveFile(char*) [80]
+                0.00    0.00       2/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initTablespace(int) [127]
+[81]     0.0    0.00    0.00       1         CTableSpace::CTableSpace(int) [81]
+                0.00    0.00       1/6           allocDataArray(int, int) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_listener_run(void*) [185]
+[82]     0.0    0.00    0.00       1         CCfgListener::getOutPort() [82]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+[83]     0.0    0.00    0.00       1         CCfgListener::loadConfig(CCfgConfigTag*) [83]
+                0.00    0.00       3/65          CCfgConfigTag::findConfigTagByName(char*) [25]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgListener::init() [85]
+[84]     0.0    0.00    0.00       1         CCfgListener::initDefaults() [84]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgListener::CCfgListener() [87]
+[85]     0.0    0.00    0.00       1         CCfgListener::init() [85]
+                0.00    0.00       1/1           CCfgListener::initDefaults() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgListener::~CCfgListener() [88]
+[86]     0.0    0.00    0.00       1         CCfgListener::terminate() [86]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::CCfgConfig(int) [72]
+[87]     0.0    0.00    0.00       1         CCfgListener::CCfgListener() [87]
+                0.00    0.00       1/1           CCfgListener::init() [85]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::~CCfgConfig() [73]
+[88]     0.0    0.00    0.00       1         CCfgListener::~CCfgListener() [88]
+                0.00    0.00       1/1           CCfgListener::terminate() [86]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::testTerminateRemoteUnit(CCfgRemoteUnit*) [141]
+[89]     0.0    0.00    0.00       1         CCmdDispatch::serverTerminate(CCfgRemoteUnit*) [89]
+                0.00    0.00       1/8           CCfgRemoteUnit::getOid() [35]
+                0.00    0.00       1/4           CCmdListener::sendStringMessageToRemoteUnit(long, char*) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::testMkDir(CCfgRemoteUnit*, long, long) [142]
+[90]     0.0    0.00    0.00       1         CCmdDispatch::doActionTS1MkDir(CCfgRemoteUnit*, long, long) [90]
+                0.00    0.00       1/8           CCfgRemoteUnit::getOid() [35]
+                0.00    0.00       1/4           CCmdListener::sendStringMessageToRemoteUnit(long, char*) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::testUpload(CCfgRemoteUnit*, long, long) [138]
+[91]     0.0    0.00    0.00       1         CCmdDispatch::doActionTS1Upload(CCfgRemoteUnit*, long, long) [91]
+                0.00    0.00       1/8           CCfgRemoteUnit::getOid() [35]
+                0.00    0.00       1/4           CCmdListener::sendStringMessageToRemoteUnit(long, char*) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::testDownloadAndProcess(CCfgRemoteUnit*, long, long, long) [140]
+[92]     0.0    0.00    0.00       1         CCmdDispatch::doActionTS1DownloadAndProcess(CCfgRemoteUnit*, long, long, long) [92]
+                0.00    0.00       1/8           CCfgRemoteUnit::getOid() [35]
+                0.00    0.00       1/4           CCmdListener::sendStringMessageToRemoteUnit(long, char*) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::CCmdTest() [143]
+[93]     0.0    0.00    0.00       1         CCmdDispatch::CCmdDispatch(char*) [93]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/230         warnMsg(int, char const*, char const*, char const*) [18]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_listener_run(void*) [185]
+[94]     0.0    0.00    0.00       1         CCmdListener::setOutPort(long) [94]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[95]     0.0    0.00    0.00       1         CCmdListener::remoteExec2() [95]
+                0.00    0.00       1/1           CCmdTest::CCmdTest() [143]
+                0.00    0.00       1/1           CCmdTest::remoteBenchmark2() [139]
+                0.00    0.00       1/1           CCmdTest::~CCmdTest() [144]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdListener::CCmdListener() [103]
+[96]     0.0    0.00    0.00       1         CCmdListener::resetAllConnections() [96]
+                0.00    0.00      40/40          CCmdListener::resetConnection(connection_struct*) [26]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_listener_run(void*) [185]
+[97]     0.0    0.00    0.00       1         CCmdListener::getAvailableConnection() [97]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdListener::sendStringMessageToListener(char*) [99]
+[98]     0.0    0.00    0.00       1         CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+                0.00    0.00       1/10          CAppMain::getConfigPtr() [32]
+                0.00    0.00       1/2           CCfgConfig::getListenerPtr() [52]
+                0.00    0.00       1/2           CCfgListener::getInPort() [53]
+                0.00    0.00       1/2           CCfgListener::getIpAddr() [54]
+                0.00    0.00       1/5           CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int) [39]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdListener::stop() [56]
+[99]     0.0    0.00    0.00       1         CCmdListener::sendStringMessageToListener(char*) [99]
+                0.00    0.00       1/1           CCmdListener::sendDataMessageToListener(unsigned char*, int) [98]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[100]    0.0    0.00    0.00       1         CCmdListener::start() [100]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_listener_run(void*) [185]
+[101]    0.0    0.00    0.00       1         CCmdListener::setInPort(long) [101]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_listener_run(void*) [185]
+[102]    0.0    0.00    0.00       1         CCmdListener::setIpAddr(char*) [102]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [66]
+[103]    0.0    0.00    0.00       1         CCmdListener::CCmdListener() [103]
+                0.00    0.00       1/1           CCmdListener::resetAllConnections() [96]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfigTag::init(int, char*) [106]
+[104]    0.0    0.00    0.00       1         CCfgConfigTag::buildConfigTags() [104]
+                0.00    0.00     199/199         CCfgConfigTag::addNewConfigTag(int, int, char*) [21]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+[105]    0.0    0.00    0.00       1         CCfgConfigTag::loadConfigTagsValue(char*) [105]
+                0.00    0.00     140/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00     140/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00      83/83          strRemoveEolUtil(char*, int) [23]
+                0.00    0.00      70/70          CCfgConfigTag::setConfigTagValue(char*, char*) [24]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfigTag::CCfgConfigTag() [108]
+[106]    0.0    0.00    0.00       1         CCfgConfigTag::init(int, char*) [106]
+                0.00    0.00       1/6           allocDataArray(int, int) [36]
+                0.00    0.00       1/1           CCfgConfigTag::buildConfigTags() [104]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfigTag::~CCfgConfigTag() [109]
+[107]    0.0    0.00    0.00       1         CCfgConfigTag::terminate() [107]
+                0.00    0.00       1/2           freeDataArray(void*) [51]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::CCfgConfig(int) [72]
+[108]    0.0    0.00    0.00       1         CCfgConfigTag::CCfgConfigTag() [108]
+                0.00    0.00       1/1           CCfgConfigTag::init(int, char*) [106]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::~CCfgConfig() [73]
+[109]    0.0    0.00    0.00       1         CCfgConfigTag::~CCfgConfigTag() [109]
+                0.00    0.00       1/1           CCfgConfigTag::terminate() [107]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+[110]    0.0    0.00    0.00       1         CCfgHostServer::loadConfig(CCfgConfigTag*) [110]
+                0.00    0.00       6/65          CCfgConfigTag::findConfigTagByName(char*) [25]
+                0.00    0.00       3/240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgHostServer::init() [112]
+[111]    0.0    0.00    0.00       1         CCfgHostServer::initDefaults() [111]
+                0.00    0.00       3/240         strNCpyUtil(char*, char*, int) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgHostServer::CCfgHostServer() [115]
+[112]    0.0    0.00    0.00       1         CCfgHostServer::init() [112]
+                0.00    0.00       1/1           CCfgHostServer::initDefaults() [111]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+[113]    0.0    0.00    0.00       1         CCfgHostServer::getName() [113]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgHostServer::~CCfgHostServer() [116]
+[114]    0.0    0.00    0.00       1         CCfgHostServer::terminate() [114]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::CCfgConfig(int) [72]
+[115]    0.0    0.00    0.00       1         CCfgHostServer::CCfgHostServer() [115]
+                0.00    0.00       1/1           CCfgHostServer::init() [112]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::~CCfgConfig() [73]
+[116]    0.0    0.00    0.00       1         CCfgHostServer::~CCfgHostServer() [116]
+                0.00    0.00       1/1           CCfgHostServer::terminate() [114]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initTableMetadata() [130]
+[117]    0.0    0.00    0.00       1         CTableMetadata::loadFile(char*) [117]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminateTableMetadata() [133]
+[118]    0.0    0.00    0.00       1         CTableMetadata::saveFile(char*) [118]
+                0.00    0.00       6/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initTableMetadata() [130]
+[119]    0.0    0.00    0.00       1         CTableMetadata::CTableMetadata(int) [119]
+                0.00    0.00       1/6           allocDataArray(int, int) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initUsers(int) [135]
+[120]    0.0    0.00    0.00       1         CUsers::debug(int, char const*, char const*) [120]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initUsers(int) [135]
+[121]    0.0    0.00    0.00       1         CUsers::loadFile(char*) [121]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminateUsers() [128]
+[122]    0.0    0.00    0.00       1         CUsers::saveFile(char*) [122]
+                0.00    0.00       5/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initUsers(int) [135]
+[123]    0.0    0.00    0.00       1         CUsers::CUsers(int) [123]
+                0.00    0.00       1/6           allocDataArray(int, int) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::init(int, char*) [134]
+[124]    0.0    0.00    0.00       1         CAppMain::initConfig(char*) [124]
+                0.00    0.00       2/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CCfgContext::CCfgContext() [76]
+                0.00    0.00       1/1           CCfgConfig::CCfgConfig(int) [72]
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+                0.00    0.00       1/1           CCfgConfig::debug(int, char const*, char const*) [70]
+-----------------------------------------------
+                0.00    0.00       1/1           CCfgConfig::loadConfig(char*) [67]
+[125]    0.0    0.00    0.00       1         CAppMain::getContextPtr() [125]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::init(int, char*) [134]
+[126]    0.0    0.00    0.00       1         CAppMain::initSequences(int) [126]
+                0.00    0.00       7/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       2/2           CSequence::debug(int, char const*, char const*) [58]
+                0.00    0.00       1/1           CSequence::CSequence(int) [147]
+                0.00    0.00       1/10          errMsgIfNull(char const*, char const*, char const*, void*) [31]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CSequence::loadFile(char*) [145]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::init(int, char*) [134]
+[127]    0.0    0.00    0.00       1         CAppMain::initTablespace(int) [127]
+                0.00    0.00       5/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CTableSpace::CTableSpace(int) [81]
+                0.00    0.00       1/10          errMsgIfNull(char const*, char const*, char const*, void*) [31]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CTableSpace::loadFile(char*) [79]
+                0.00    0.00       1/1           CTableSpace::debug(int, char const*, char const*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminate() [136]
+[128]    0.0    0.00    0.00       1         CAppMain::terminateUsers() [128]
+                0.00    0.00       4/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CUsers::saveFile(char*) [122]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminate() [136]
+[129]    0.0    0.00    0.00       1         CAppMain::terminateConfig() [129]
+                0.00    0.00       1/1           CCfgConfig::~CCfgConfig() [73]
+                0.00    0.00       1/1           CCfgContext::~CCfgContext() [77]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::init(int, char*) [134]
+[130]    0.0    0.00    0.00       1         CAppMain::initTableMetadata() [130]
+                0.00    0.00       4/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CTableMetadata::CTableMetadata(int) [119]
+                0.00    0.00       1/10          errMsgIfNull(char const*, char const*, char const*, void*) [31]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CTableMetadata::loadFile(char*) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminate() [136]
+[131]    0.0    0.00    0.00       1         CAppMain::terminateSequences() [131]
+                0.00    0.00       4/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CSequence::saveFile(char*) [146]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminate() [136]
+[132]    0.0    0.00    0.00       1         CAppMain::terminateTablespace() [132]
+                0.00    0.00       4/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CTableSpace::saveFile(char*) [80]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminate() [136]
+[133]    0.0    0.00    0.00       1         CAppMain::terminateTableMetadata() [133]
+                0.00    0.00       4/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CTableMetadata::saveFile(char*) [118]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[134]    0.0    0.00    0.00       1         CAppMain::init(int, char*) [134]
+                0.00    0.00       1/1           CAppMain::initConfig(char*) [124]
+                0.00    0.00       1/1           CAppMain::initSequences(int) [126]
+                0.00    0.00       1/1           CAppMain::initUsers(int) [135]
+                0.00    0.00       1/1           CAppMain::initTablespace(int) [127]
+                0.00    0.00       1/1           CAppMain::initTableMetadata() [130]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::init(int, char*) [134]
+[135]    0.0    0.00    0.00       1         CAppMain::initUsers(int) [135]
+                0.00    0.00       4/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CUsers::CUsers(int) [123]
+                0.00    0.00       1/10          errMsgIfNull(char const*, char const*, char const*, void*) [31]
+                0.00    0.00       1/8           CCfgContext::getDataDir() [34]
+                0.00    0.00       1/240         strNCpyUtil(char*, char*, int) [17]
+                0.00    0.00       1/18          strNCatUtil(char*, char*, int) [30]
+                0.00    0.00       1/1           CUsers::loadFile(char*) [121]
+                0.00    0.00       1/1           CUsers::debug(int, char const*, char const*) [120]
+-----------------------------------------------
+                0.00    0.00       1/1           main [13]
+[136]    0.0    0.00    0.00       1         CAppMain::terminate() [136]
+                0.00    0.00       1/1           CAppMain::terminateTableMetadata() [133]
+                0.00    0.00       1/1           CAppMain::terminateTablespace() [132]
+                0.00    0.00       1/1           CAppMain::terminateUsers() [128]
+                0.00    0.00       1/1           CAppMain::terminateSequences() [131]
+                0.00    0.00       1/1           CAppMain::terminateConfig() [129]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [65]
+[137]    0.0    0.00    0.00       1         CAppMain::CAppMain() [137]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::remoteBenchmark2() [139]
+[138]    0.0    0.00    0.00       1         CCmdTest::testUpload(CCfgRemoteUnit*, long, long) [138]
+                0.00    0.00       2/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CCmdDispatch::doActionTS1Upload(CCfgRemoteUnit*, long, long) [91]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdListener::remoteExec2() [95]
+[139]    0.0    0.00    0.00       1         CCmdTest::remoteBenchmark2() [139]
+                0.00    0.00      25/25          CCfgConfig::getRemoteUnitAtPtr(int) [27]
+                0.00    0.00      25/25          CCfgRemoteUnit::getEnabled() [28]
+                0.00    0.00       4/5           showMessage(char const*, long) [38]
+                0.00    0.00       3/3           CCmdTest::waitMessage(int) [49]
+                0.00    0.00       1/10          CAppMain::getConfigPtr() [32]
+                0.00    0.00       1/1           CCfgConfig::getCurrNumRemoteUnits() [68]
+                0.00    0.00       1/1           CCmdTest::testMkDir(CCfgRemoteUnit*, long, long) [142]
+                0.00    0.00       1/1           CCmdTest::testUpload(CCfgRemoteUnit*, long, long) [138]
+                0.00    0.00       1/1           CCmdTest::testDownloadAndProcess(CCfgRemoteUnit*, long, long, long) [140]
+                0.00    0.00       1/1           CCmdTest::testTerminateRemoteUnit(CCfgRemoteUnit*) [141]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::remoteBenchmark2() [139]
+[140]    0.0    0.00    0.00       1         CCmdTest::testDownloadAndProcess(CCfgRemoteUnit*, long, long, long) [140]
+                0.00    0.00       2/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CCmdDispatch::doActionTS1DownloadAndProcess(CCfgRemoteUnit*, long, long, long) [92]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::remoteBenchmark2() [139]
+[141]    0.0    0.00    0.00       1         CCmdTest::testTerminateRemoteUnit(CCfgRemoteUnit*) [141]
+                0.00    0.00       2/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CCmdDispatch::serverTerminate(CCfgRemoteUnit*) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdTest::remoteBenchmark2() [139]
+[142]    0.0    0.00    0.00       1         CCmdTest::testMkDir(CCfgRemoteUnit*, long, long) [142]
+                0.00    0.00       2/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/1           CCmdDispatch::doActionTS1MkDir(CCfgRemoteUnit*, long, long) [90]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdListener::remoteExec2() [95]
+[143]    0.0    0.00    0.00       1         CCmdTest::CCmdTest() [143]
+                0.00    0.00       1/1           CCmdDispatch::CCmdDispatch(char*) [93]
+-----------------------------------------------
+                0.00    0.00       1/1           CCmdListener::remoteExec2() [95]
+[144]    0.0    0.00    0.00       1         CCmdTest::~CCmdTest() [144]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initSequences(int) [126]
+[145]    0.0    0.00    0.00       1         CSequence::loadFile(char*) [145]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::terminateSequences() [131]
+[146]    0.0    0.00    0.00       1         CSequence::saveFile(char*) [146]
+                0.00    0.00      10/230         warnMsg(int, char const*, char const*, char const*) [18]
+                0.00    0.00       1/9           openFileUtil(_IO_FILE**, char const*, char const*, long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           CAppMain::initSequences(int) [126]
+[147]    0.0    0.00    0.00       1         CSequence::CSequence(int) [147]
+                0.00    0.00       1/6           allocDataArray(int, int) [36]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2016 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [59] _GLOBAL__sub_I_gAppMain (horussrv_mod_appmain.cpp) [84] CCfgListener::initDefaults() [37] CCfgHostServer::getInPort()
+  [60] _GLOBAL__sub_I_gCmdListener (horussrv_cmd_listener.cpp) [85] CCfgListener::init() [114] CCfgHostServer::terminate()
+  [61] showParams(cmdline_struct*) [53] CCfgListener::getInPort() [115] CCfgHostServer::CCfgHostServer()
+  [50] memNCpyUtil(unsigned char*, unsigned char*, int) [54] CCfgListener::getIpAddr() [116] CCfgHostServer::~CCfgHostServer()
+  [38] showMessage(char const*, long) [86] CCfgListener::terminate() [28] CCfgRemoteUnit::getEnabled()
+  [30] strNCatUtil(char*, char*, int) [87] CCfgListener::CCfgListener() [42] CCfgRemoteUnit::loadConfig(int, CCfgConfigTag*)
+  [29] strNCmpUtil(char*, char*, int) [88] CCfgListener::~CCfgListener() [35] CCfgRemoteUnit::getOid()
+  [17] strNCpyUtil(char*, char*, int) [89] CCmdDispatch::serverTerminate(CCfgRemoteUnit*) [46] CCfgRemoteUnit::getInPort()
+  [31] errMsgIfNull(char const*, char const*, char const*, void*) [90] CCmdDispatch::doActionTS1MkDir(CCfgRemoteUnit*, long, long) [47] CCfgRemoteUnit::getIpAddr()
+  [33] openFileUtil(_IO_FILE**, char const*, char const*, long) [91] CCmdDispatch::doActionTS1Upload(CCfgRemoteUnit*, long, long) [117] CTableMetadata::loadFile(char*)
+  [62] parserParams(int, char**, cmdline_struct*) [92] CCmdDispatch::doActionTS1DownloadAndProcess(CCfgRemoteUnit*, long, long, long) [118] CTableMetadata::saveFile(char*)
+  [51] freeDataArray(void*)   [93] CCmdDispatch::CCmdDispatch(char*) [119] CTableMetadata::CTableMetadata(int)
+  [36] allocDataArray(int, int) [94] CCmdListener::setOutPort(long) [120] CUsers::debug(int, char const*, char const*)
+  [22] memSetNullUtil(unsigned char*, int) [55] CCmdListener::setRunning(int) [121] CUsers::loadFile(char*)
+  [63] getLocalTimeStr(char*) [95] CCmdListener::remoteExec2() [122] CUsers::saveFile(char*)
+  [15] strNCmpCaseUtil(char*, char*, int, int) [26] CCmdListener::resetConnection(connection_struct*) [123] CUsers::CUsers(int)
+  [19] strNCpyCaseUtil(char*, char*, int, int) [96] CCmdListener::resetAllConnections() [124] CAppMain::initConfig(char*)
+  [20] strSetEmptyUtil(char*) [39] CCmdListener::sendDataMessageToAny(char*, int, unsigned char*, int) [32] CAppMain::getConfigPtr()
+  [23] strRemoveEolUtil(char*, int) [40] CCmdListener::sendDataMessageToINET(sockaddr_in*, long, unsigned char*, int) [125] CAppMain::getContextPtr()
+  [64] showHeaderMessage()    [97] CCmdListener::getAvailableConnection() [126] CAppMain::initSequences(int)
+  [65] __static_initialization_and_destruction_0(int, int) (horussrv_mod_appmain.cpp) [98] CCmdListener::sendDataMessageToListener(unsigned char*, int) [127] CAppMain::initTablespace(int)
+  [66] __static_initialization_and_destruction_0(int, int) (horussrv_cmd_listener.cpp) [44] CCmdListener::sendDataMessageToRemoteUnit(long, unsigned char*, int) [128] CAppMain::terminateUsers()
+  [18] warnMsg(int, char const*, char const*, char const*) [99] CCmdListener::sendStringMessageToListener(char*) [129] CAppMain::terminateConfig()
+  [67] CCfgConfig::loadConfig(char*) [45] CCmdListener::sendStringMessageToRemoteUnit(long, char*) [130] CAppMain::initTableMetadata()
+  [52] CCfgConfig::getListenerPtr() [56] CCmdListener::stop() [131] CAppMain::terminateSequences()
+  [48] CCfgConfig::getHostServerPtr() [100] CCmdListener::start() [132] CAppMain::terminateTablespace()
+  [43] CCfgConfig::getRemoteUnitPtr(int) [57] CCmdListener::getInPort() [133] CAppMain::terminateTableMetadata()
+  [27] CCfgConfig::getRemoteUnitAtPtr(int) [41] CCmdListener::isRunning() [134] CAppMain::init(int, char*)
+  [68] CCfgConfig::getCurrNumRemoteUnits() [101] CCmdListener::setInPort(long) [135] CAppMain::initUsers(int)
+  [69] CCfgConfig::init(int) [102] CCmdListener::setIpAddr(char*) [136] CAppMain::terminate()
+  [70] CCfgConfig::debug(int, char const*, char const*) [103] CCmdListener::CCmdListener() [137] CAppMain::CAppMain()
+  [71] CCfgConfig::terminate() [16] CCfgConfigTag::debugEntry(int, char const*, char const*, config_tag_struct*) [138] CCmdTest::testUpload(CCfgRemoteUnit*, long, long)
+  [72] CCfgConfig::CCfgConfig(int) [21] CCfgConfigTag::addNewConfigTag(int, int, char*) [49] CCmdTest::waitMessage(int)
+  [73] CCfgConfig::~CCfgConfig() [104] CCfgConfigTag::buildConfigTags() [139] CCmdTest::remoteBenchmark2()
+  [34] CCfgContext::getDataDir() [24] CCfgConfigTag::setConfigTagValue(char*, char*) [140] CCmdTest::testDownloadAndProcess(CCfgRemoteUnit*, long, long, long)
+  [74] CCfgContext::initDefaults() [25] CCfgConfigTag::findConfigTagByName(char*) [141] CCmdTest::testTerminateRemoteUnit(CCfgRemoteUnit*)
+  [75] CCfgContext::resetDataLocation(char*) [105] CCfgConfigTag::loadConfigTagsValue(char*) [142] CCmdTest::testMkDir(CCfgRemoteUnit*, long, long)
+  [76] CCfgContext::CCfgContext() [106] CCfgConfigTag::init(int, char*) [143] CCmdTest::CCmdTest()
+  [77] CCfgContext::~CCfgContext() [107] CCfgConfigTag::terminate() [144] CCmdTest::~CCmdTest()
+  [78] CTableSpace::debug(int, char const*, char const*) [108] CCfgConfigTag::CCfgConfigTag() [58] CSequence::debug(int, char const*, char const*)
+  [79] CTableSpace::loadFile(char*) [109] CCfgConfigTag::~CCfgConfigTag() [145] CSequence::loadFile(char*)
+  [80] CTableSpace::saveFile(char*) [110] CCfgHostServer::loadConfig(CCfgConfigTag*) [146] CSequence::saveFile(char*)
+  [81] CTableSpace::CTableSpace(int) [111] CCfgHostServer::initDefaults() [147] CSequence::CSequence(int)
+  [82] CCfgListener::getOutPort() [112] CCfgHostServer::init()
+  [83] CCfgListener::loadConfig(CCfgConfigTag*) [113] CCfgHostServer::getName()

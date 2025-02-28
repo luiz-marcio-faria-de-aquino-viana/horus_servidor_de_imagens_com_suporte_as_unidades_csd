@@ -1,0 +1,212 @@
+=== HORUSSVR v2.3.20220207
+
+Partners:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Author: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+ID: 08855128-8 IFP-RJ
+Registro: 2000103581 CREA-RJ
+Phone: (21)99983-7207
+E-mails: lmarcio@cos.ufrj.br / lmarcio@tlmv.com.br
+
+===
+
+
+
+Command line parameters:
+
+REBUILD = 1
+START_LISTENER = 0
+TEST_LISTENER = 0
+EXEC_BENCHMARK = 0
+REMOTE_BENCHMARK (TYPE 1) = 0
+REMOTE_BENCHMARK (TYPE 2) = 0
+
+START HORUSSRV...
+TEST HORUSSRV...
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1) Sequence Test: SEQ_USERS
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1.1) CSequence::AddItem(SEQ_IMGRIO)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1.2) CSequence::AddItem(SEQ_PATEARTH)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1.3) CSequence::AddItem(SEQ_PATEARTH)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1.4) CSequence::AddItem(SEQ_PATEARTH)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1.5) CSequence::AddItem(SEQ_PATWATTER)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.1.6) CSequence::AddItem(SEQ_PATPARCEL)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.2.1) Seq: SEQ_USERS, NextUid: 5002
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.2.2) Seq: SEQ_USERS, NextUid: 5003
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.2.3) Seq: SEQ_USERS, NextUid: 5004
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.3) Sequence Test: SEQ_TABLESPACE
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.3.1) Seq: SEQ_TABLESPACE, NextUid: 5002
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.3.2) Seq: SEQ_TABLESPACE, NextUid: 5003
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.3.3) Seq: SEQ_TABLESPACE, NextUid: 5004
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.4.1) Seq: SEQ_IMGRIO, NextUid: 5002
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.4.2) Seq: SEQ_IMGRIO, NextUid: 5003
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testSequences()): XI.4.3) Seq: SEQ_IMGRIO, NextUid: 5004
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1) Users' Table
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.1) Add New Users
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.1.1) Add User: Uid=2,Username=LMARCIO
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.1.2) Add User: Uid=3,Username=FELIPE
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.1.3) Add User: Uid=4,Username=DIEGO
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.1.4) Add User: Uid=5,Username=TIAGO
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.2) List Selected Users
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.2.1) Oid: 1, Username: SYSTEM, Passwd: SYSTEM
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.2.2) Oid: 2, Username: LMARCIO, Passwd: LMARCIO
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.2.3) Oid: 3, Username: FELIPE, Passwd: FELIPE
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.2.4) Oid: 4, Username: DIEGO, Passwd: DIEGO
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testUsers()): XII.1.2.5) Oid: 5, Username: TIAGO, Passwd: TIAGO
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableSpace()): XIII.1) List TableSpace
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTablespace()): XIII.1.1) Oid: 201, Tablespace: USERS, Path: USERS_DAT/
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTablespace()): XIII.1.2) Oid: 202, Tablespace: TEMP, Path: TEMP_DAT/
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1) Metadata Table
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1) Add New Table Metadata
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1.1) CTableMetadata::AddItem(tbl_imgrio)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1.2) CTableMetadata::AddItem(tbl_patsand)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1.3) CTableMetadata::AddItem(tbl_patgrass)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1.4) CTableMetadata::AddItem(tbl_patearth)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1.5) CTableMetadata::AddItem(tbl_patwatter)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.1.1.6) CTableMetadata::AddItem(tbl_patparcel)...OK.
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.2) CTableMetadata::List All Entries
+
+WARN(__HORUSSRV_MOD_APPTEST_H_initTableMetadata()): TableMetadata: Oid=301,KeyHash=5314429,TableSpaceOid=201,NumTableSpace=6,NumEntries=0,CreateUid=1,ModifyUid=1,DeleteUid=-9223372036854775808,CreateDate=742459,ModifyDate=742459,DeleteDate=-9223372036854775808,IsModified=1,IsDeleted=0,TableType=2,ReferenceTableOid=-9223372036854775808,ModuleName=,TableName=tbl_imgrio,TableFileName=tbl_imgrio.dat,Idx1Name=ix1_imgrio,Idx1FileName=ix1_imgrio.idx,Idx2Name=ix2_imgrio,Idx2FileName=ix2_imgrio.idx,SeqName=SEQ_IMGRIO,Key=tbl_imgrio
+
+WARN(__HORUSSRV_MOD_APPTEST_H_initTableMetadata()): TableMetadata: Oid=311,KeyHash=3471134,TableSpaceOid=201,NumTableSpace=6,NumEntries=0,CreateUid=1,ModifyUid=1,DeleteUid=-9223372036854775808,CreateDate=742479,ModifyDate=742479,DeleteDate=-9223372036854775808,IsModified=1,IsDeleted=0,TableType=1,ReferenceTableOid=301,ModuleName=patsand_mod,TableName=tbl_patsand,TableFileName=tbl_patsand.dat,Idx1Name=ix1_patsand,Idx1FileName=ix1_patsand.idx,Idx2Name=ix2_patsand,Idx2FileName=ix2_patsand.idx,SeqName=SEQ_PATSAND,Key=tbl_patsand
+
+WARN(__HORUSSRV_MOD_APPTEST_H_initTableMetadata()): TableMetadata: Oid=312,KeyHash=4310065,TableSpaceOid=201,NumTableSpace=6,NumEntries=0,CreateUid=1,ModifyUid=1,DeleteUid=-9223372036854775808,CreateDate=742497,ModifyDate=742497,DeleteDate=-9223372036854775808,IsModified=1,IsDeleted=0,TableType=1,ReferenceTableOid=301,ModuleName=patgrass_mod,TableName=tbl_patgrass,TableFileName=tbl_patgrass.dat,Idx1Name=ix1_patgrass,Idx1FileName=ix1_patgrass.idx,Idx2Name=ix2_patgrass,Idx2FileName=ix2_patgrass.idx,SeqName=SEQ_PATGRASS,Key=tbl_patgrass
+
+WARN(__HORUSSRV_MOD_APPTEST_H_initTableMetadata()): TableMetadata: Oid=313,KeyHash=4450809,TableSpaceOid=201,NumTableSpace=6,NumEntries=0,CreateUid=1,ModifyUid=1,DeleteUid=-9223372036854775808,CreateDate=742515,ModifyDate=742515,DeleteDate=-9223372036854775808,IsModified=1,IsDeleted=0,TableType=1,ReferenceTableOid=301,ModuleName=patearth_mod,TableName=tbl_patearth,TableFileName=tbl_patearth.dat,Idx1Name=ix1_patearth,Idx1FileName=ix1_patearth.idx,Idx2Name=ix2_patearth,Idx2FileName=ix2_patearth.idx,SeqName=SEQ_PATEARTH,Key=tbl_patearth
+
+WARN(__HORUSSRV_MOD_APPTEST_H_initTableMetadata()): TableMetadata: Oid=314,KeyHash=5032283,TableSpaceOid=201,NumTableSpace=6,NumEntries=0,CreateUid=1,ModifyUid=1,DeleteUid=-9223372036854775808,CreateDate=742534,ModifyDate=742534,DeleteDate=-9223372036854775808,IsModified=1,IsDeleted=0,TableType=1,ReferenceTableOid=301,ModuleName=patwatter_mod,TableName=tbl_patwatter,TableFileName=tbl_patwatter.dat,Idx1Name=ix1_patwatter,Idx1FileName=ix1_patwatter.idx,Idx2Name=ix2_patwatter,Idx2FileName=ix2_patwatter.idx,SeqName=SEQ_PATWATTER,Key=tbl_patwatter
+
+WARN(__HORUSSRV_MOD_APPTEST_H_initTableMetadata()): TableMetadata: Oid=315,KeyHash=4605376,TableSpaceOid=201,NumTableSpace=6,NumEntries=0,CreateUid=1,ModifyUid=1,DeleteUid=-9223372036854775808,CreateDate=742554,ModifyDate=742554,DeleteDate=-9223372036854775808,IsModified=1,IsDeleted=0,TableType=1,ReferenceTableOid=301,ModuleName=patparcel_mod,TableName=tbl_patparcel,TableFileName=tbl_patparcel.dat,Idx1Name=ix1_patparcel,Idx1FileName=ix1_patparcel.idx,Idx2Name=ix2_patparcel,Idx2FileName=ix2_patparcel.idx,SeqName=SEQ_PATPARCEL,Key=tbl_patparcel
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.3) List Table Metadata
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.3.1) Oid: 301, TableMetadata: tbl_imgrio, FileName: tbl_imgrio.dat
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.3.2) Oid: 311, TableMetadata: tbl_patsand, FileName: tbl_patsand.dat
+
+WARN(__HORUSSRV_MOD_APPTEST_H_testTableMetadata()): XIV.3.3) Oid: 312, TableMetadata: tbl_patgrass, FileName: tbl_patgrass.dat
+
+TERMINATE HORUSSRV...
+
+=== HORUSSVR v2.3.20220207
+
+Partners:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Author: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+ID: 08855128-8 IFP-RJ
+Registro: 2000103581 CREA-RJ
+Phone: (21)99983-7207
+E-mails: lmarcio@cos.ufrj.br / lmarcio@tlmv.com.br
+
+===
+
+
+
+Command line parameters:
+
+REBUILD = 0
+START_LISTENER = 1
+TEST_LISTENER = 0
+EXEC_BENCHMARK = 0
+REMOTE_BENCHMARK (TYPE 1) = 0
+REMOTE_BENCHMARK (TYPE 2) = 1
+
+START HORUSSRV...
+START HORUSSRV LISTENER...
+
+
+=> Listener started...
+CMD: -1^ts1-M^0^1
+
+
+=> Waiting for Remote Units...
+Message #0: <?xml version='1.0' encoding='UTF-8' ?><Result><RemoteUnitOid>211</RemoteUnitOid><RequestNumber>1</RequestNumber><RequestTimestamp>1645510664750946</RequestTimestamp><ResultCode>0</ResultCode><ResultMessage>Title: TS-1M; Subtitle: TBLPATSAND; StartTime: 1645510664751272; EndTime: 1645510664751873; Diff: 601
+Title: TS-1M; Subtitle: TOTAL; StartTime: 1645510664751272; EndTime: 1645510664751873; Diff: 601
+</ResultMessage><ResultType>256</ResultType><ResultNumberValue>0</ResultNumberValue><ResultStringValue></ResultStringValue><ResultData></ResultData><ResultDataSize>0</ResultDataSize></Result>
+
+
+=> Waiting for Remote Units... Completed!
+
+CMD: -1^ts1-U^0^1
+
+
+=> Waiting for Remote Units...
+Message #0: <?xml version='1.0' encoding='UTF-8' ?><Result><RemoteUnitOid>211</RemoteUnitOid><RequestNumber>2</RequestNumber><RequestTimestamp>1645510664752641</RequestTimestamp><ResultCode>0</ResultCode><ResultMessage>Title: TS-1U; Subtitle: TBLPATSAND; StartTime: 1645510664752919; EndTime: 1645510682678939; Diff: 17926020
+Title: TS-1U; Subtitle: TOTAL; StartTime: 1645510664752919; EndTime: 1645510682678939; Diff: 17926020
+</ResultMessage><ResultType>256</ResultType><ResultNumberValue>0</ResultNumberValue><ResultStringValue></ResultStringValue><ResultData></ResultData><ResultDataSize>0</ResultDataSize></Result>
+
+
+=> Waiting for Remote Units... Completed!
+
+CMD: -1^ts1-DP^0^1
+
+
+=> Waiting for Remote Units...
+Message #0: <?xml version='1.0' encoding='UTF-8' ?><Result><RemoteUnitOid>211</RemoteUnitOid><RequestNumber>3</RequestNumber><RequestTimestamp>1645510682679154</RequestTimestamp><ResultCode>0</ResultCode><ResultMessage>Title: TS-1DP; Subtitle: TBLPATSAND; StartTime: 1645510682679280; EndTime: 1645511004535802; Diff: 321856522
+Title: TS-1DP; Subtitle: TOTAL; StartTime: 1645510682679280; EndTime: 1645511004535802; Diff: 321856522
+</ResultMessage><ResultType>256</ResultType><ResultNumberValue>0</ResultNumberValue><ResultStringValue></ResultStringValue><ResultData></ResultData><ResultDataSize>0</ResultDataSize></Result>
+
+
+=> Waiting for Remote Units... Completed!
+
+CMD: \.
+TERMINATE HORUSSRV LISTENER...
+
+
+DataRecv: \....
+
+Message #1: \....
+
+
+=> Listener terminated!
+
+FINISH HORUSSRV LISTENER... 
+TERMINATE HORUSSRV...
+
