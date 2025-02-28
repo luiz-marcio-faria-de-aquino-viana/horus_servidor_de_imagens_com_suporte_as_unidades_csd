@@ -65,3 +65,10 @@ This work present a study about imaging processing optimization, using storage d
 
 The experiments show which using storage units with in-situ processing, we could get a speedup of 1.69 for image format conversions, 1.12 for image re-projection to different coordinate systems and projections, and 1.48 for image simplification and reduction in the number of points per inches, when compared with a base system with sequential processing.
 
+# CONTATO
+
+CONTACT ME, IF YOU NEED HELP OR HAVE ANY QUESTIONS ABOUT THIS ACADEMIC WORK!
+
+Luiz Marcio Faria de Aquino Viana,Pós-D.Sc.
+E-mail: luiz.marcio.viana@gmail.com
+Phone/WhatsApp: +55-21-99983-7207
